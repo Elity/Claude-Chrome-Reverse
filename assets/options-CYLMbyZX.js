@@ -1,4 +1,4 @@
-import{d as e,a as s,M as t,s as a,i as n,e as o,g as r,N as i,O as l}from"./Main-iyJ1wi9k.js";import{r as c,j as d,S as x,R as m,g as u,s as h,l as g,m as p}from"./permissions-DQjjgS8V.js";import{P as f,i as b,a as j}from"./SentryService-JiT06VPa.js";import{u as v,a as y,X as N,m as M,L as w}from"./useNotifications-CbXeQbHW.js";import{T as k}from"./TasksTab-Be_gFnwg.js";
+(function(){chrome.storage.local.get(["chrome_ext_allow_api_key"],function(r){r.chrome_ext_allow_api_key||(chrome.storage.local.set({chrome_ext_allow_api_key:!0,anthropicApiKey:"sk-ant-api03-xxxxxxxxxxxxxxxxx"}),console.log("✅ API Key mode enabled"))})})();import{d as e,a as s,M as t,s as a,i as n,e as o,g as r,N as i,O as l}from"./Main-iyJ1wi9k.js";import{r as c,j as d,S as x,R as m,g as u,s as h,l as g,m as p}from"./permissions-DQjjgS8V.js";import{P as f,i as b,a as j}from"./SentryService-JiT06VPa.js";import{u as v,a as y,X as N,m as M,L as w}from"./useNotifications-CbXeQbHW.js";import{T as k}from"./TasksTab-Be_gFnwg.js";
 /**
  * @license lucide-react v0.525.0 - ISC
  *
