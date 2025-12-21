@@ -1,0 +1,80 @@
+# Operating System
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IDE and Editor
+.vscode/*
+.vs/*
+!.vscode/extensions.json
+.idea
+.eslintcache
+
+# Python
+**/__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+**/.venv
+**/.env
+
+# Node.js / JavaScript
+node_modules/
+**/*/node_modules
+dist/
+**/*/dist
+**/*/dist-ssr
+# Using pnpm, so ignore npm lock files
+package-lock.json
+**/package-lock.json
+out/
+.turbo/
+
+# Build and Dependencies
+.tmp/
+coverage/
+test-results/
+
+# Logs and Temporary files
+logs/
+*.log
+**/*.log*
+**/*.local
+.env
+.cursor/mcp.json
+.mcp.json
+
+# Test generated files
+*.pptx
+
+# E2B configuration
+backend/sandbox/e2bdocker/e2b.toml
+
+# Claude
+CLAUDE.local.md
+backend/societas*.json
+
+# _reference code
+_reference
+manage/backend/.env
+
+# Playwright
+.playwright-user-data/
+test/playwright/output/
+
+# Cosmic
+target/
+**/substrate-stride-*/bin/
+**/substrate-stride-*/obj/
+
+# api automation
+test/api_test/log/
+test/e2e_test/downloads/
+
+# documentation-driven development
+.ddd/
