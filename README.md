@@ -92,6 +92,26 @@ Since this is a modified version, it cannot be published to the Chrome Web Store
 
 This project is a modification of the official Claude for Chrome extension. Original copyright belongs to Anthropic.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-This is an unofficial modification for educational and personal use. Use at your own risk. The authors are not responsible for any issues arising from the use of this modified extension.
+**FOR RESEARCH AND TESTING PURPOSES ONLY**
+
+This project is an **unofficial modification** of the Claude for Chrome extension, created solely for educational, research, and testing purposes. By using this modified extension, you acknowledge and agree that:
+
+- ❌ This is **NOT** an official Anthropic product
+- ❌ This project is **NOT** endorsed, supported, or affiliated with Anthropic
+- ❌ Use of this extension is entirely **at your own risk**
+- ❌ The authors and contributors accept **NO responsibility or liability** for:
+  - Any damages, losses, or issues arising from the use of this extension
+  - API costs incurred through usage
+  - Data loss or privacy concerns
+  - Violations of any terms of service
+  - Any other direct or indirect consequences
+
+- ⚠️ Users are responsible for:
+  - Ensuring compliance with Anthropic's Terms of Service
+  - Monitoring and managing their API usage and costs
+  - Understanding the security implications of running modified browser extensions
+  - Any consequences resulting from the use of this software
+
+**BY DOWNLOADING, INSTALLING, OR USING THIS EXTENSION, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS DISCLAIMER AND AGREE TO ASSUME ALL RISKS ASSOCIATED WITH ITS USE.**
