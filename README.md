@@ -5,6 +5,7 @@ A modified version of the official "Claude for Chrome (Beta)" extension that ena
 ## Features
 
 - ✅ **API Key Support**: Use your own Anthropic API key
+- ✅ **Custom API URL**: Connect to custom API endpoints (e.g., API proxies, local servers)
 - ✅ **No Subscription Required**: Bypass subscription checks
 - ✅ **Full Functionality**: All original features remain intact
 - ✅ **Privacy Focused**: Direct API communication without OAuth intermediaries
@@ -42,8 +43,11 @@ Since this is a modified version, it cannot be published to the Chrome Web Store
 1. Click the **extension icon** in your Chrome toolbar (you may need to pin it first)
 2. Click the **settings/gear icon** or right-click the extension and select **"Options"**
 3. In the left sidebar, select **"API configuration (internal)"**
-4. Enter your Anthropic API key in the input field
-5. Click **"Save API Key"**
+4. (Optional) Enter a custom API Base URL if using a proxy or local server
+   - Example: `http://localhost:23333/api/anthropic`
+   - Leave empty to use the default Anthropic API (`https://api.anthropic.com`)
+5. Enter your Anthropic API key in the input field
+6. Click **"Save API Configuration"**
 
 ## Usage
 
@@ -83,6 +87,12 @@ Since this is a modified version, it cannot be published to the Chrome Web Store
 - Verify your API key is correct at [console.anthropic.com](https://console.anthropic.com/account/keys)
 - Check that you've saved the key in the extension options
 - Try reloading the extension after saving the key
+
+### Custom API URL not working
+- Ensure your custom endpoint is compatible with the Anthropic API format
+- The endpoint should support `/v1/messages` path
+- Check that CORS headers are properly configured on your server
+- For local servers, make sure the server is running and accessible
 
 ### Chat interface shows login screen
 - Reload the extension from `chrome://extensions`
